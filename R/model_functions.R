@@ -1,14 +1,4 @@
 
-################################################################################
-###    General model, nabla and split_theta functions
-################################################################################
-
-# A model should have three components, i.e., it is a list of length 3 or a (pre-implemented) string
-# - m(theta)
-# - nabla_m(theta)
-# - theta_split which splits the parameter vector into theta1 and theta2 of length q1 and q2
-# Simply call theta_split(theta)$theta1 and theta_split(theta)$theta2 to get the subvectors
-
 
 #' SRM Model Function
 #'
